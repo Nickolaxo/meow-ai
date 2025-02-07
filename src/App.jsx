@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './App.css';
-import catAvatar from './images/cat-avatar.png'
 
 function CatChatbot() {
   const [text, setText] = useState('');
@@ -58,16 +57,16 @@ function CatChatbot() {
         backgroundColor: '#fff',
         borderRadius: '8px'
       }}>
-        <img 
-        src={catAvatar}  // We'll add the import for this
-        alt="Cat AI"
-        style={{
+    <img 
+      src="/cat-avatar.png"   // Just this simple path
+      alt="Cat AI"
+      style={{
         width: '40px',
         height: '40px',
         marginRight: '10px',
         borderRadius: '50%'
       }}
-    />
+  />
         <h2 style={{
           margin: 0,
           color: '#333',
