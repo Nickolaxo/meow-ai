@@ -146,6 +146,48 @@ function CatChatbot() {
 function App() {
   return (
     <div className="App">
+      {/* Navigation Bar */}
+      <nav style={{
+        backgroundColor: '#333',
+        padding: '15px',
+        marginBottom: '20px'
+      }}>
+        <div style={{
+          maxWidth: '800px',
+          margin: '0 auto',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center'
+        }}>
+          <div style={{ color: 'white', fontSize: '20px' }}>Meow AI</div>
+          <div>
+            <a href="/" style={{
+              color: 'white',
+              textDecoration: 'none',
+              marginRight: '20px'
+            }}>Home</a>
+            
+            <a href="https://x.com/MeowAIToken" style={{
+              color: 'white',
+              textDecoration: 'none',
+              marginRight: '20px'
+            }}>Twitter</a>
+            
+            <a href="https://t.me/+LY4EgozXDc45ZmUx" style={{
+              color: 'white',
+              textDecoration: 'none',
+              marginRight: '20px'
+            }}>Telegram</a>
+            
+            <span style={{
+              color: 'white',
+              marginRight: '20px'
+            }}>CA 🐱</span>
+            
+          </div>
+        </div>
+      </nav>
+
       <CatChatbot />
     </div>
   );
