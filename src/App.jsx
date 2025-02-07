@@ -58,7 +58,7 @@ function CatChatbot() {
         borderRadius: '8px'
       }}>
         <img 
-          src="https://cdn-icons-png.flaticon.com/512/1818/1818401.png"
+          src="/cat-avatar.png"
           alt="Cat AI"
           style={{
             width: '40px',
